@@ -15,7 +15,7 @@
                 newFee = Math.Round(newFee) + Math.Round(rand.NextDouble(), 2);
             }
 
-            Fee = Math.Round(Fee,2) * newFee;
+            Fee = Math.Round(Fee, 2) * newFee == 0 ? 0.50 : Math.Round(Fee, 2) * newFee;
         }
 
         public double CurrentFee()
