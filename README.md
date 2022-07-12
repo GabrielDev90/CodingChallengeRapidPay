@@ -34,6 +34,7 @@ GetBalance - Where you can retrieve you card information. Your balance is here.
 
 About fee price.<br />
 There is a BackgroundService in Payment Api where fee is calculated.<br />
-The requirementes say it should be applied every hour. however, my purpors here is to show it working and it was set to run every 30s.
+The requirementes say it should be applied every hour. however, my purpors here is to show it working and it was set to run every 30s.<br />
+Inside this BackgroundService there is a ILogger obj in order to see it updating on the console.
 
 
