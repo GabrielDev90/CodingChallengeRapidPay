@@ -12,9 +12,13 @@ Once this application is up and running, you will come across two api's (Identit
 
 In order to use any functionality on Payment, you need to create na authentication. 
 
-Identity Api has two endpoints (Create User and Sign In). 
-Createuser - as its name says, you can create an user. 
+Identity Api has two endpoints (Create User and Sign In).
+<br />
+Createuser - as its name says, you can create an user.
+<br />
 SignIn - you can validate your credentials and also access you token.
+
+Here https://jwt.io/ you can validatre you token. There will be tow claims. 
 
 If your credentials are valid, your token will be in the response body, there is a attribue RESULT where you can find it.
 
