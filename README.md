@@ -10,7 +10,7 @@ There is no need to execute any SQL code once it was made with Entity Framework 
 # Application ready to start
 Once this application is up and running, you will come across two api's (Identity and Payment).
 
-In order to use any functionality on Payment, you need to create an authentication. 
+In order to use any functionality on the Payment, you need to create an authentication. 
 
 Identity Api has two endpoints (Create User and Sign In).
 <br />
@@ -33,8 +33,8 @@ Payment - Where you can make a payment. You need to inform a valid card number a
 GetBalance - Where you can retrieve you card information. Your balance is here. 
 
 About fee price.<br />
-There is a BackgroundService in Payment Api where fee is calculated.<br />
-The requirementes say it should be applied every hour. however, my purpors here is to show it working and it was set to run every 30s.<br />
+There is a BackgroundService in the Payment Api where fee is calculated.<br />
+The requirementes say it should be applied every hour. however, my purpose here is to show it working and it was set to run every 30s.<br />
 Inside this BackgroundService there is an ILogger obj in order to see it updating on the console.
 
 
