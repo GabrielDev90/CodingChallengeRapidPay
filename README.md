@@ -10,7 +10,7 @@ There is no need to execute any SQL code once it was made with Entity Framework 
 # Application ready to start
 Once this application is up and running, you will come across two api's (Identity and Payment).
 
-In order to use any functionality on Payment, you need to create na authentication. 
+In order to use any functionality on Payment, you need to create an authentication. 
 
 Identity Api has two endpoints (Create User and Sign In).
 <br />
@@ -18,9 +18,9 @@ Createuser - as its name says, you can create an user.
 <br />
 SignIn - you can validate your credentials and also access you token.
 
-Here https://jwt.io/ you can validatre you token. There will be tow claims. 
-
 If your credentials are valid, your token will be in the response body, there is a attribue RESULT where you can find it.
+
+Here https://jwt.io/ you can validatre you token. There will be tow claims. 
 
 After having this token, you can go to Payment api and authenticate. A single click on the Authorization button will open a modal where you can insert you token.
 
@@ -35,6 +35,6 @@ GetBalance - Where you can retrieve you card information. Your balance is here.
 About fee price.<br />
 There is a BackgroundService in Payment Api where fee is calculated.<br />
 The requirementes say it should be applied every hour. however, my purpors here is to show it working and it was set to run every 30s.<br />
-Inside this BackgroundService there is a ILogger obj in order to see it updating on the console.
+Inside this BackgroundService there is an ILogger obj in order to see it updating on the console.
 
 
