@@ -22,7 +22,7 @@ If your credentials are valid, your token will be in the response body, there is
 
 Here https://jwt.io/ you can validatre you token. There will be two claims. 
 
-After having this token, you can go to Payment api and authenticate. A single click on the Authorization button will open a modal where you can insert you token.
+After having your token, you can go to Payment api and authenticate. A single click on the Authorization button will open a modal where you can insert you token.
 
 Payment Api has three endpoints.
 <br />
