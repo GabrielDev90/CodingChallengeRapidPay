@@ -18,9 +18,9 @@ Createuser - as its name says, you can create an user.
 <br />
 SignIn - you can validate your credentials and also access you token.
 
-If your credentials are valid, your token will be in the response body, there is a attribue RESULT where you can find it.
+If your credentials are valid, your token will be in the response body, there is an attribue RESULT where you can find it.
 
-Here https://jwt.io/ you can validatre you token. There will be tow claims. 
+Here https://jwt.io/ you can validatre you token. There will be two claims. 
 
 After having this token, you can go to Payment api and authenticate. A single click on the Authorization button will open a modal where you can insert you token.
 
