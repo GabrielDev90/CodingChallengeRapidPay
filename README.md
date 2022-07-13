@@ -26,7 +26,7 @@ After having your token, you can go to Payment api and authenticate. A single cl
 
 Payment Api has three endpoints.
 <br />
-CreateCard - Here you can create a card. It will return a 15 lenght number,which is your card number, and add R$ 100 to your balance (just to play around). 
+CreateCard - Here you can create a card. It will return a 15 length number,which is your card number, and add R$ 100 to your balance (just to play around). 
 <br />
 Payment - Where you can make a payment. You need to inform a valid card number and the amount to be paid. 
 <br />
