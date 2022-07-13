@@ -3,7 +3,7 @@ Coding Challenge
 
 # How to start this application?
 Right click on RapidPayChallenge solution and Set start up projects. 
-Here you need to select multiple start up projects and than select RapidPay.Service.Identity and RapidPay.Service.PaymentApi should have the action "Start"
+Here you need to select multiple start up projects and then select RapidPay.Service.Identity and RapidPay.Service.PaymentApi to have the action "Start".
 
 There is no need to execute any SQL code once it was made with Entity Framework in memory. All the data that this application uses is lost when you close it.
 
