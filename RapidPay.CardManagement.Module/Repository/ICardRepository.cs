@@ -6,7 +6,7 @@ namespace RapidPay.CardManagement.Module.Repository
     {
         Task<Card> CreateCard(Card card);
         Task<Card> GetBalance(long cardNumber);
-        Task<Card> UpdateBalance(Card card);
+        Task<int> UpdateBalance(Card card);
         Task<bool> GetCardByNumber(long cardNumber);
     }
 }

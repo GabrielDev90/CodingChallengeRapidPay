@@ -43,11 +43,10 @@ namespace RapidPay.CardManagement.Module.Repository
             return await _db.Cards.AsNoTracking().FirstOrDefaultAsync(x => x.Number == cardNumber);
         }
 
-        public async Task<Card> UpdateBalance(Card card)
+        public async Task<int> UpdateBalance(Card card)
         {
             _db.Cards.Update(card);
-            await _db.SaveChangesAsync();
-            return new Card();
+            return await _db.SaveChangesAsync();
         }
     }
 }
